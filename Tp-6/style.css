@@ -1,0 +1,43 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* Añadir un estilo especial cuando el pokemon está seleccionado */
+li.selected {
+    background-color: #f0f0f0;
+}
