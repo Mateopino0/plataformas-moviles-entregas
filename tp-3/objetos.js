@@ -4,7 +4,11 @@ var personaEjemplo = {
     "edad": 20,
     "documento": 12345
 };
-
+var personaEjemplo = {
+    "apellido": "Pino",
+    "nombre": "Franco",
+    "edad": 17,
+};
 /**
  * 01 - crearPersona
  * 
