@@ -15,7 +15,6 @@ function invertirLista(listaDeNumeros) {
     return listaDeNumeros.reverse();
   }
   
-  const listaNumerosEjemplo = [2, 4, 6, -1, 5, -4, 0];
   console.log("invertirLista([2, 3, 4]): ", invertirLista([2, 3, 4])); 
   console.log("invertirLista(listaNumerosEjemplo): ", invertirLista(listaNumerosEjemplo)); 
   
