@@ -3,6 +3,10 @@ var personaEjemplo = {
     "nombre": "Juan",
     "edad": 20,
     "documento": 12345
+
+    "apellido": "Pino",
+    "nombre": "Franco",
+    "edad": "17"
 };
 
 /**
