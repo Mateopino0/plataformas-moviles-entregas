@@ -11,7 +11,7 @@ var listaNumerosEjemplo = [2,4,6,-1,5,-4,0];
  * Ejemplos:
  * - invertirLista([2,3,4]) retorna [4,3,2]
  */
-function1 invertirLista(listaDeNumeros) {
+function invertirLista(listaDeNumeros) {
     return listaDeNumeros.reverse();
   }
   
@@ -30,7 +30,7 @@ function1 invertirLista(listaDeNumeros) {
  * Ejemplos:
  * - calcularPromedio([2,3,4]) retorna 3
  */
-function2 calcularPromedio(listaDeNumeros) {
+function calcularPromedio(listaDeNumeros) {
     if (listaDeNumeros.length === 0) {
       return 0;
     }
@@ -58,7 +58,7 @@ function2 calcularPromedio(listaDeNumeros) {
  * - crearListaDeNumeros(3,6) retorna [3,4,5,6]
  * - crearListaDeNumeros(2,2) retorna [2]
  */
-function3 crearListaDeNumeros(inicio, fin) {
+function crearListaDeNumeros(inicio, fin) {
     const lista = [];
     for (let i = inicio; i <= fin; i++) {
       lista.push(i);
@@ -80,7 +80,7 @@ function3 crearListaDeNumeros(inicio, fin) {
  * Ejemplos:
  * - ordenarDeMayorAMenor([2,-1,4]) retorna [4,2,-1]
  */
-function4 ordenarDeMayorAMenor(listaDeNumeros) {
+function ordenarDeMayorAMenor(listaDeNumeros) {
     return listaDeNumeros.sort((a, b) => b - a);
   }
   
@@ -100,7 +100,7 @@ function4 ordenarDeMayorAMenor(listaDeNumeros) {
  * Ejemplos:
  * - encontrarNumeroMayor([2,3,4]) retorna 4
  */
-function5 encontrarNumeroMayor(listaDeNumeros) {
+function encontrarNumeroMayor(listaDeNumeros) {
     return Math.max(...listaDeNumeros);
   }
   
@@ -120,7 +120,7 @@ function5 encontrarNumeroMayor(listaDeNumeros) {
  * Ejemplos:
  * - ordenarPalabrasPorLongitud(['abc', 'a', 'ab']) retorna ['a', 'ab', 'abc']
  */
-function6 ordenarPalabrasPorLongitud(listaDePalabras) {
+function ordenarPalabrasPorLongitud(listaDePalabras) {
     return listaDePalabras.sort((a, b) => a.length - b.length);
   }
   
@@ -138,7 +138,7 @@ function6 ordenarPalabrasPorLongitud(listaDePalabras) {
  * Ejemplos:
  * - encontrarPalabraMasCorta(['abc', 'a', 'ab', 'c']) retorna 'a'
  */
-function7 encontrarPalabraMasCorta(listaDePalabras) {
+function encontrarPalabraMasCorta(listaDePalabras) {
     if (listaDePalabras.length === 0) {
       return null; // Retorna null si la lista está vacía.
     }
@@ -169,7 +169,7 @@ function7 encontrarPalabraMasCorta(listaDePalabras) {
  * Ejemplos:
  * - filtrarSoloPositivos([1,-1,2]) retorna [1,2]
  */
-function8 filtrarSoloPositivos(listaDeNumeros) {
+function filtrarSoloPositivos(listaDeNumeros) {
     return listaDeNumeros.filter(numero => numero > 0);
   }
   
@@ -188,7 +188,7 @@ function8 filtrarSoloPositivos(listaDeNumeros) {
  * Ejemplos:
  * - contarAprobados([10,2,9]) retorna 2
  */
-function9 contarAprobados(listaDeNotas) {
+function contarAprobados(listaDeNotas) {
     const notasAprobadas = listaDeNotas.filter(nota => nota >= 5);
     return notasAprobadas.length;
   }
@@ -226,7 +226,7 @@ function0 filtrarSoloTruthy(listaDeValores) {
  * Ejemplos:
  * - enumerarLista(["Han", "Leia", "Luke", "Yoda"]) "Han, Leia, Luke y Yoda."
  */
-function10 enumerarLista(listaDePalabras) {
+function enumerarLista(listaDePalabras) {
     if (listaDePalabras.length === 0) {
       return ""; 
     }
