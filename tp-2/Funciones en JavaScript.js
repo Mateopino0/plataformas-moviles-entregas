@@ -12,7 +12,7 @@ var listaNumerosEjemplo1 = [2,4,6,-1,5,-4,0];
  * - invertirLista([2,3,4]) retorna [4,3,2]
  */
 function invertirLista1(listaDeNumeros1) {
-    return listaDeNumeros.reverse();
+    return listaDeNumeros1.reverse();
   }
   const listaNumerosEjemplo5 = [2, 4, 6, -1, 5, -4, 0];
   console.log("invertirLista1([2, 3, 4]): ", invertirLista1([2, 3, 4])); 
