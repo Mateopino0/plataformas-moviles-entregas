@@ -84,7 +84,7 @@ function ordenarDeMayorAMenor3(listaDeNumeros) {
     return listaDeNumeros.sort((a, b) => b - a);
   }
   
-  const listaNumerosEjemplo1 = [2, 4, 6, -1, 5, -4, 0];
+  const listaNumerosEjemplo = [2, 4, 6, -1, 5, -4, 0];
   console.log("ordenarDeMayorAMenor3([2, 3, 4]): ", ordenarDeMayorAMenor3([2, 3, 4])); // Retorna [4, 3, 2]
   console.log("ordenarDeMayorAMenor3(listaNumerosEjemplo): ", ordenarDeMayorAMenor3(listaNumerosEjemplo)); // Retorna la lista ordenada de mayor a menor
   
