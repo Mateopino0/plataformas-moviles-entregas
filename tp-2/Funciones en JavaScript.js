@@ -207,7 +207,7 @@ function contarAprobados8(listaDeNotas) {
  * Ejemplos:
  * - filtrarSoloTruthy(["Hola", "", 0, 1]) retorna ["Hola", 1]
  */
-function0 filtrarSoloTruthy1(listaDeValores) {
+function filtrarSoloTruthy1(listaDeValores) {
     return listaDeValores.filter(valor => !!valor);
   }
   
