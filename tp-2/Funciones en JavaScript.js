@@ -40,7 +40,6 @@ function2 calcularPromedio(listaDeNumeros) {
     return promedio;
   }
   
-  const listaNumerosEjemplo = [2, 3, 4];
   console.log("calcularPromedio([2, 3, 4]): ", calcularPromedio([2, 3, 4])); // Retorna 3
   console.log("calcularPromedio(listaNumerosEjemplo): ", calcularPromedio(listaNumerosEjemplo)); // Retorna 3
   
