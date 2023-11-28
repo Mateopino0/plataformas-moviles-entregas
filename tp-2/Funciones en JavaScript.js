@@ -11,12 +11,12 @@ var listaNumerosEjemplo = [2,4,6,-1,5,-4,0];
  * Ejemplos:
  * - invertirLista([2,3,4]) retorna [4,3,2]
  */
-function invertirLista(listaDeNumeros) {
+function invertirLista1(listaDeNumeros1) {
     return listaDeNumeros.reverse();
   }
   
-  console.log("invertirLista([2, 3, 4]): ", invertirLista([2, 3, 4])); 
-  console.log("invertirLista(listaNumerosEjemplo): ", invertirLista(listaNumerosEjemplo)); 
+  console.log("invertirLista1([2, 3, 4]): ", invertirLista1([2, 3, 4])); 
+  console.log("invertirLista1(listaNumerosEjemplo): ", invertirLista1(listaNumerosEjemplo)); 
   
 
 
@@ -30,7 +30,7 @@ function invertirLista(listaDeNumeros) {
  * Ejemplos:
  * - calcularPromedio([2,3,4]) retorna 3
  */
-function calcularPromedio(listaDeNumeros) {
+function calcularPromedio1(listaDeNumeros) {
     if (listaDeNumeros.length === 0) {
       return 0;
     }
@@ -40,8 +40,8 @@ function calcularPromedio(listaDeNumeros) {
     return promedio;
   }
   
-  console.log("calcularPromedio([2, 3, 4]): ", calcularPromedio([2, 3, 4])); // Retorna 3
-  console.log("calcularPromedio(listaNumerosEjemplo): ", calcularPromedio(listaNumerosEjemplo)); // Retorna 3
+  console.log("calcularPromedio1([2, 3, 4]): ", calcularPromedio1([2, 3, 4])); // Retorna 3
+  console.log("calcularPromedio1(listaNumerosEjemplo): ", calcularPromedio1(listaNumerosEjemplo)); // Retorna 3
   
 
 
@@ -58,7 +58,7 @@ function calcularPromedio(listaDeNumeros) {
  * - crearListaDeNumeros(3,6) retorna [3,4,5,6]
  * - crearListaDeNumeros(2,2) retorna [2]
  */
-function crearListaDeNumeros(inicio, fin) {
+function crearListaDeNumeros2(inicio, fin) {
     const lista = [];
     for (let i = inicio; i <= fin; i++) {
       lista.push(i);
@@ -67,7 +67,7 @@ function crearListaDeNumeros(inicio, fin) {
   }
   
   // Ejemplo de uso:
-  console.log("crearListaDeNumeros(2, 5): ", crearListaDeNumeros(2, 5)); // Retorna [2, 3, 4, 5]
+  console.log("crearListaDeNumeros2(2, 5): ", crearListaDeNumeros2(2, 5)); // Retorna [2, 3, 4, 5]
   
 
 /**
@@ -80,13 +80,13 @@ function crearListaDeNumeros(inicio, fin) {
  * Ejemplos:
  * - ordenarDeMayorAMenor([2,-1,4]) retorna [4,2,-1]
  */
-function ordenarDeMayorAMenor(listaDeNumeros) {
+function ordenarDeMayorAMenor3(listaDeNumeros) {
     return listaDeNumeros.sort((a, b) => b - a);
   }
   
   const listaNumerosEjemplo = [2, 4, 6, -1, 5, -4, 0];
-  console.log("ordenarDeMayorAMenor([2, 3, 4]): ", ordenarDeMayorAMenor([2, 3, 4])); // Retorna [4, 3, 2]
-  console.log("ordenarDeMayorAMenor(listaNumerosEjemplo): ", ordenarDeMayorAMenor(listaNumerosEjemplo)); // Retorna la lista ordenada de mayor a menor
+  console.log("ordenarDeMayorAMenor3([2, 3, 4]): ", ordenarDeMayorAMenor3([2, 3, 4])); // Retorna [4, 3, 2]
+  console.log("ordenarDeMayorAMenor3(listaNumerosEjemplo): ", ordenarDeMayorAMenor3(listaNumerosEjemplo)); // Retorna la lista ordenada de mayor a menor
   
 
 
@@ -100,13 +100,13 @@ function ordenarDeMayorAMenor(listaDeNumeros) {
  * Ejemplos:
  * - encontrarNumeroMayor([2,3,4]) retorna 4
  */
-function encontrarNumeroMayor(listaDeNumeros) {
+function encontrarNumeroMayor4(listaDeNumeros) {
     return Math.max(...listaDeNumeros);
   }
   
   const listaNumerosEjemplo = [2, 4, 6, -1, 5, -4, 0];
-  console.log("encontrarNumeroMayor([2, 3, 4]): ", encontrarNumeroMayor([2, 3, 4])); // Retorna 4
-  console.log("encontrarNumeroMayor(listaNumerosEjemplo): ", encontrarNumeroMayor(listaNumerosEjemplo)); // Retorna el número más grande en la lista
+  console.log("encontrarNumeroMayor4([2, 3, 4]): ", encontrarNumeroMayor4([2, 3, 4])); // Retorna 4
+  console.log("encontrarNumeroMayor4(listaNumerosEjemplo): ", encontrarNumeroMayor4(listaNumerosEjemplo)); // Retorna el número más grande en la lista
   
 
 
@@ -120,11 +120,11 @@ function encontrarNumeroMayor(listaDeNumeros) {
  * Ejemplos:
  * - ordenarPalabrasPorLongitud(['abc', 'a', 'ab']) retorna ['a', 'ab', 'abc']
  */
-function ordenarPalabrasPorLongitud(listaDePalabras) {
+function ordenarPalabrasPorLongitud5(listaDePalabras) {
     return listaDePalabras.sort((a, b) => a.length - b.length);
   }
   
-  console.log("ordenarPalabrasPorLongitud(['abc', 'a', 'ab']): ", ordenarPalabrasPorLongitud(['abc', 'a', 'ab'])); // Retorna ['a', 'ab', 'abc']
+  console.log("ordenarPalabrasPorLongitud5(['abc', 'a', 'ab']): ", ordenarPalabrasPorLongitud5(['abc', 'a', 'ab'])); // Retorna ['a', 'ab', 'abc']
   
 
 
@@ -138,24 +138,24 @@ function ordenarPalabrasPorLongitud(listaDePalabras) {
  * Ejemplos:
  * - encontrarPalabraMasCorta(['abc', 'a', 'ab', 'c']) retorna 'a'
  */
-function encontrarPalabraMasCorta(listaDePalabras) {
+function palabraMasCorta6(listaDePalabras) {
     if (listaDePalabras.length === 0) {
       return null; // Retorna null si la lista está vacía.
     }
   
-    let palabraMasCorta = listaDePalabras[0];
+    let palabraMasCorta6 = listaDePalabras[0];
   
     for (let i = 1; i < listaDePalabras.length; i++) {
-      if (listaDePalabras[i].length < palabraMasCorta.length) {
-        palabraMasCorta = listaDePalabras[i];
+      if (listaDePalabras[i].length < palabraMasCorta6.length) {
+        palabraMasCorta6 = listaDePalabras[i];
       }
     }
   
-    return palabraMasCorta;
+    return palabraMasCorta6;
   }
   
   // Ejemplo de uso:
-  console.log("encontrarPalabraMasCorta(['abc', 'a', 'ab', 'c']): ", encontrarPalabraMasCorta(['abc', 'a', 'ab', 'c'])); // Retorna 'a'
+  console.log("palabraMasCorta6(['abc', 'a', 'ab', 'c']): ", palabraMasCorta6(['abc', 'a', 'ab', 'c'])); // Retorna 'a'
   
 
 
@@ -169,13 +169,13 @@ function encontrarPalabraMasCorta(listaDePalabras) {
  * Ejemplos:
  * - filtrarSoloPositivos([1,-1,2]) retorna [1,2]
  */
-function filtrarSoloPositivos(listaDeNumeros) {
+function filtrarSoloPositivos7(listaDeNumeros) {
     return listaDeNumeros.filter(numero => numero > 0);
   }
   
   const listaNumerosEjemplo = [2, 4, 6, -1, 5, -4, 0];
-  console.log("filtrarSoloPositivos([1, -1, 0]): ", filtrarSoloPositivos([1, -1, 0])); // Retorna [1]
-  console.log("filtrarSoloPositivos(listaNumerosEjemplo): ", filtrarSoloPositivos(listaNumerosEjemplo)); // Retorna [2, 4, 6, 5]
+  console.log("filtrarSoloPositivos7([1, -1, 0]): ", filtrarSoloPositivos7([1, -1, 0])); // Retorna [1]
+  console.log("filtrarSoloPositivos7(listaNumerosEjemplo): ", filtrarSoloPositivos7(listaNumerosEjemplo)); // Retorna [2, 4, 6, 5]
   
 
 /**
@@ -188,12 +188,12 @@ function filtrarSoloPositivos(listaDeNumeros) {
  * Ejemplos:
  * - contarAprobados([10,2,9]) retorna 2
  */
-function contarAprobados(listaDeNotas) {
+function contarAprobados8(listaDeNotas) {
     const notasAprobadas = listaDeNotas.filter(nota => nota >= 5);
     return notasAprobadas.length;
   }
   
-  console.log("contarAprobados([10, 4, 6, 7, 1, 9]): ", contarAprobados([10, 4, 6, 7, 1, 9])); // Retorna 4
+  console.log("contarAprobados8([10, 4, 6, 7, 1, 9]): ", contarAprobados8([10, 4, 6, 7, 1, 9])); // Retorna 4
   
 
 
